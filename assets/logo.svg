@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="H.A.L.O.">
+  <!-- The halo: a ring carrying the dimedata ribbon, warm at the top cooling to
+       the bottom, on the app's own near-black ground. Drawn on a 512 grid with
+       the mark inside the safe area so the same file works as a maskable icon
+       (Android crops up to 20% on every edge). -->
+  <defs>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="0.28" y2="1">
+      <stop offset="0%" stop-color="#cc3300"/>
+      <stop offset="12%" stop-color="#f0b429"/>
+      <stop offset="24%" stop-color="#e94560"/>
+      <stop offset="38%" stop-color="#cc3300"/>
+      <stop offset="55%" stop-color="#4c8f6a"/>
+      <stop offset="70%" stop-color="#2dd4bf"/>
+      <stop offset="82%" stop-color="#22d3ee"/>
+      <stop offset="92%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1210"/>
+      <stop offset="42%" stop-color="#131316"/>
+      <stop offset="100%" stop-color="#0c1b26"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#ground)"/>
+
+  <!-- The ring, tilted so it reads as a halo in perspective rather than as a
+       plain circle. -->
+  <ellipse cx="256" cy="212" rx="132" ry="52"
+           fill="none" stroke="url(#ribbon)" stroke-width="26"/>
+
+  <!-- The H, sitting under the halo. -->
+  <g fill="#eeeeec">
+    <rect x="176" y="284" width="30" height="150" rx="9"/>
+    <rect x="306" y="284" width="30" height="150" rx="9"/>
+    <rect x="176" y="344" width="160" height="28" rx="9"/>
+  </g>
+</svg>
