@@ -23,7 +23,7 @@ leaves the building.
 
 | | |
 |---|---|
-| **Intake → a staffed company** | Six questions: what you do, where customers come from, which tools you use, what drains you, what a good month looks like, and what an agent must never do without asking. The answers become 7 departments, 5 routines, 23 templates and pinned notes. Running it again changes nothing. |
+| **Intake → a staffed company** | Six questions: what you do, where customers come from, which tools you use, what drains you, what a good month looks like, and what an agent must never do without asking. The answers become departments, routines, templates and pinned notes. Running it again changes nothing. |
 | **Today** | The home screen, computed from state with **no model call**: a brief of what ran since you last looked, one ranked Needs-you list, three suggested next jobs, and the week ahead. |
 | **Routines that run on the server** | Scheduled in the owner's time zone, not the server's, and they fire whether or not a window is open. Event routines fire when something happens, such as a calendar entry about to start, exactly once per item, even across a restart. |
 | **Approvals** | Agents stop and ask before they send, spend, publish, delete or sign, according to the owner's own policy. Text from outside the workspace (a calendar invite, a message) enters a prompt fenced and labelled as data, never as an instruction. |
@@ -82,8 +82,8 @@ the same session contract as the macOS one.
 
 | | |
 |---|---|
-| Tests | **3,567** passing across 264 files (measured 2026-09-10) |
-| Production check | **117** assertions against the live deployment after every deploy |
+| Tests | **3,567** passing across the test suite (measured 2026-09-10) |
+| Production check | Assertions run against the live deployment after every deploy |
 | Latest release | **0.2.5** (2026-09-11), Windows x64 + Arm64 |
 
 Token and accuracy figures are published, with methods and dates, on the
