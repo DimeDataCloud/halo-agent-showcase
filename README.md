@@ -4,7 +4,7 @@
 
 **A hosted operating system for a one-person business, staffed by AI agents.**
 
-**Live at [haloagent.tech](https://haloagent.tech)** · Windows desktop app (x64 and Arm64)
+**Status: paused.** Windows desktop app (x64 and Arm64)
 with auto-update · source is private.
 
 ![HALO, cycling through Today, Routines, Templates, a thread and capabilities](assets/hero.gif)
@@ -87,7 +87,7 @@ the same session contract as the macOS one.
 | Latest release | **0.2.5** (2026-09-11), Windows x64 + Arm64 |
 
 Token and accuracy figures are published, with methods and dates, on the
-[benchmarks page](https://haloagent.tech/benchmarks.html).
+benchmarks page (published with methods and dates while the platform was live).
 
 ## Credits
 
